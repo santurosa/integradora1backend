@@ -17,8 +17,8 @@ const productsSchema = new mongoose.Schema({
         required: true
     },
     thumbnail: {
-        type: String,
-        default: "Sin imagenes"
+        type: Array,
+        default: ["Sin imagenes"]
     },
     stock: {
         type: Number,
